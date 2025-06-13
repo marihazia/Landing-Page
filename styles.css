@@ -1,0 +1,81 @@
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+  background-color: whitesmoke;
+  color:rgb(54, 129, 104);
+  padding: 10px 20px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-between;
+
+}
+.navbar nav a{
+  text-decoration: none;
+  color: black;
+  margin-left: 14px;
+  text-decoration: underline;
+}
+.navbar nav a:hover{
+  color: rgb(96, 101, 101);
+  text-decoration: underline;
+}
+
+.hero{
+   background-color: rgb(98, 155, 142);
+   color: rgb(51, 49, 49);
+   padding: 80px 20px;
+  text-align: center;
+  
+}
+
+
+.button{
+  background-color: rgb(48, 84, 88);
+    color: white;
+    font-weight: lighter;
+    font-size:medium;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button:hover{
+    background-color:rgb(32, 56, 58);
+}
+.button:active{
+    background-color:rgb(24, 42, 44) ;
+    opacity: 0.5;
+}
+.about{
+  background-color: whitesmoke;
+  padding: 40px 20px;
+  text-align: center;
+  color: rgb(51, 49, 49);
+  
+}
+.testimonials{
+  background-color: rgb(88, 146, 139);
+  padding: 20px;
+  text-align: center;
+  color: rgb(40, 39, 39);
+}
+.card{
+background: white;
+color: rgb(51, 49, 49);
+padding: 15px;
+margin: 10px;
+border: 1px solid #ccc;
+}
+
+.footer{
+  background-color: rgb(128, 123, 119);
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+
